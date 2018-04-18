@@ -30,7 +30,7 @@ class ForgetPassword extends React.Component {
         var { x, y, width, height } = Dimensions.get('window');
         return (
             <Container>
-                <Header style={{ backgroundColor: '#DC3023' }} androidStatusBarColor="#8F1D21" iosBarStyle="light-content">
+                <Header style={{ backgroundColor: '#3498db' }} androidStatusBarColor="#8F1D21" iosBarStyle="light-content">
                     <Left style={{ flex: 1 }}>
                         
                     </Left>

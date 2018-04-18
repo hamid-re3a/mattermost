@@ -47,7 +47,7 @@ class Splash extends React.Component {
         return (
             <Container style={style.splashContainer}>
                 <StatusBar backgroundColor="#8F1D21" barStyle="light-content" />
-                <Text style={style.splashText}>محل کار شما</Text>
+                <Text style={style.splashText}>Matter Most</Text>
                 <Spinner color='#BFBFBF' />
             </Container>
         )

@@ -39,7 +39,7 @@ export default class BaseLightbox extends React.Component {
                 {children}
                 </View>
                 <Button transparent style={{ position: 'absolute', top : 0 , left : 0}} onPress={() => this.close() }>
-                    <Icon name='md-close-circle' style={{ fontSize : 30 , color : '#DC3023'}}/>
+                    <Icon name='md-close-circle' style={{ fontSize : 30 , color : '#3498db'}}/>
                 </Button>
             </View>
         )
