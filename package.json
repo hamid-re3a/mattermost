@@ -1,0 +1,41 @@
+{
+  "name": "reservina",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "moment-jalaali": "^0.7.2",
+    "native-base": "^2.3.5",
+    "react": "16.0.0",
+    "react-native": "0.51.0",
+    "react-native-background-timer": "^2.0.0",
+    "react-native-extended-stylesheet": "^0.8.0",
+    "react-native-fetch-blob": "^0.10.8",
+    "react-native-image-crop-picker": "^0.19.1",
+    "react-native-image-picker": "^0.26.7",
+    "react-native-push-notification": "^3.0.2",
+    "react-native-router-flux": "^4.0.0-beta.27",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^5.4.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "22.0.3",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.0.3",
+    "react-test-renderer": "16.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./src/assets/fonts"
+    ]
+  }
+}
